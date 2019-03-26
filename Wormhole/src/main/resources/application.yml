@@ -1,0 +1,13 @@
+# 配置druid数据库连接池
+spring:
+  druid:
+    borrowConnectionTimeout: 30000
+    maxActive: 20
+    maxWait: 10000
+    minEvictableIdleTimeMillis: 300000
+    minIdle: 3
+    password: root
+    timeBetweenEvictionRunsMillis: 60000
+    url: jdbc:mysql://47.107.133.173:3306/house?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    validationQuery: SELECT 'x'   # 解决mysql8小时问题
