@@ -13,6 +13,7 @@ import java.security.NoSuchAlgorithmException;
  * @Description: Md5加密方法
  */
 public class Md5Utils {
+
     //添加日记
     private static final Logger log = LoggerFactory.getLogger(Md5Utils.class);
 
