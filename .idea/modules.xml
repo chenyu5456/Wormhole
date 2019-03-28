@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/wormhole/wormhole.iml" filepath="$PROJECT_DIR$/wormhole/wormhole.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Wormhole/wormhole.iml" filepath="$PROJECT_DIR$/Wormhole/wormhole.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wormhole-framework/wormhole-framework.iml" filepath="$PROJECT_DIR$/wormhole-framework/wormhole-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wormhole-system/wormhole-system.iml" filepath="$PROJECT_DIR$/wormhole-system/wormhole-system.iml" />
     </modules>
   </component>
 </project>
