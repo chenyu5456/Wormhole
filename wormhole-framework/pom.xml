@@ -23,12 +23,29 @@
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>com.wormhole.framework</groupId>
+      <artifactId>wormhole-system</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.shiro/shiro-spring -->
+    <dependency>
+      <groupId>org.apache.shiro</groupId>
+      <artifactId>shiro-spring</artifactId>
+      <version>1.4.0</version>
+    </dependency>
 
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.wormhole.framework</groupId>
+      <artifactId>wormhole-system</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+      <scope>compile</scope>
     </dependency>
   </dependencies>
 
